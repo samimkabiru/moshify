@@ -26,6 +26,10 @@ body {
   color: var(--color-body);
 }
 
+p::selection {
+  background: rgba(89 152 247 / 0.7);
+}
+
 h1,
 h2,
 h3 {
@@ -165,7 +169,7 @@ a {
 }
 
 .icon--primary {
-  fill: var(--color-primary);
+  fill: var(--color-secondary);
 }
 
 .icon-container {
@@ -363,4 +367,21 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media */
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
